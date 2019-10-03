@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="baseCarShift" class="com.inheriance.beans.Car">
+	<property name="name" value="Shift Dzire"/>
+	<property name="model" value="VDX"/>
+	<property name="fualType" value="Desiel"/>
+	<property name="manufactoryYear" value="2018"/>
+</bean>
+<bean id="shift1" class="com.inheriance.beans.Car" parent="baseCarShift">
+	<property name="engineId" value="1234"/>
+</bean>
+<bean id="shift2" class="com.inheriance.beans.Car" parent="baseCarShift">
+	<property name="engineId" value="12345"/>
+</bean>
+</beans>
