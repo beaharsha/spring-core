@@ -1,9 +1,9 @@
 # spring-core
 1.Spring core projects 
-Basic Spring application
-Mapping Constructor arguments using type, name, index in spring configuration file
-Collection Injection
-Map Injection
-Bean Inheritance
-Collection merging in bean inheritance
-Bean alias 
+2. Basic Spring application
+3. Mapping Constructor arguments using type, name, index in spring configuration file
+4. Collection Injection
+5. Map Injection
+6. Bean Inheritance
+7. Collection merging in bean inheritance
+8. Bean alias 
