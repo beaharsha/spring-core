@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="robot" class="com.spring.second.beans.Robot">
+	
+	<constructor-arg value="Humanoid" />
+	<constructor-arg value="chitti" index="1"/>
+	
+	<constructor-arg value="100" name="id"/>  <!-- type casting -->
+</bean>
+
+<bean id="robot1" class="com.spring.second.beans.Robot">
+	
+	<constructor-arg value="100" type="int"/>
+	<constructor-arg value="Humanoid" />
+</bean>
+
+</beans>
